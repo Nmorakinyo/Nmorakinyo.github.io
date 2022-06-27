@@ -1,0 +1,55 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;     
+}
+
+header, footer {
+    background-color: lightgreen;
+}
+
+.site-title{
+    color: blueviolet;
+}
+
+#my-image {
+    
+    box-shadow: 0 0 2px 1px black;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+li:nth-child(odd){
+    background: yellow;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    background: aqua;
+    border: red;
+  }
+
+  nav a:hover {
+    background-color: purple;
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
