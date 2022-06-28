@@ -29,10 +29,11 @@ nav a {
     background: black;
     border-style: solid;
     border-color: red;
+    border-width: 1px;
   }
 
   nav a:hover {
-    background-color: purple;
+    background: purple;
   }
 
 
