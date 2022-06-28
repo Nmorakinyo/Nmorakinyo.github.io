@@ -12,7 +12,7 @@ header, footer {
 }
 
 #my-image {
-    box-shadow: 10px 10px 12px 11px black;
+    box-shadow: 0 0 2px 1px black;
   }
 
   ul {
@@ -25,9 +25,10 @@ li:nth-child(odd){
 
 nav a {
     text-decoration: none;
-    color:black;
-    background: aqua;
-    border: red;
+    color:white;
+    background: black;
+    border-style: solid;
+    border-color: red;
   }
 
   nav a:hover {
