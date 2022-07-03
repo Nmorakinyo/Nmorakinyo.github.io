@@ -7,18 +7,17 @@ body (
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-color: skyblue;
+    background-color: Blue;
 )
 main-container (
     width: 80%;
     height: auto;
     overflow: hidden;
-    background-color: lightblue;
+    background-color: red;
 )
 
 header (
     width: 100%;
-    margin: 4% 10% 5% 10%;
 )
 
 header img(
@@ -28,23 +27,26 @@ header img(
 .text-wrapper (
     width: 100%;
     position: relative;
-    margin-top: -40%;
+    margin-top: -5%;
 )
 
 .text-wrapper h1 (
     text-align: center;
     color: white;
-    font-size: 10vw;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 )
 
+nav (
+    width=100%;
+)
 
-
+article (
+    width=100%;
+)
 .container
 {
-    margin: 150px auto;
-    width: 50px;
-    padding: 8px;
+    width=100%;
 }
 
 img
