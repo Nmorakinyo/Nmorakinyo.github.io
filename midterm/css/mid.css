@@ -45,6 +45,8 @@ header {
 
 .lonefish-text h1 {
     text-align: center;
+    position: absolute;
+    top: 40%;
     color: white;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
