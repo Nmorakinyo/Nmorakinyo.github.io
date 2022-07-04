@@ -1,36 +1,49 @@
-/* *{
-    padding: 0;
-    margin: 0;
+*{-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+      box-sizing:border-box;
+    }
+
+html, body{
+    margin:0; 
+    background-color: white;
+    padding:0;
 }
-*/
-body {
-    width: 100%;
-    background-color: aqua;
-}
+
 
 main-container {
+     width:1000px;
+     margin:0 auto;
+     background-color: aqua;
+}
+content-container {
     width: 80%;
-    background-color: aquamarine;
+    margin: 0 auto;
+   background-color: aquamarine;
 }
 
-.banner-lonefish {
+header {
+    width: 100%;
+    height: auto;
+}
+
+.lonefish-banner {
     width: 100%;
     position: relative;
 }
 
-.banner-lonefish img {
+.lonefish-banner img {
     width: 100%;
     height: auto; 
 }
 
-.text-lonefish {
+.lonefish-text {
     width: 100%;
     position: absolute;
     top: 25%;
     padding: 20px;
 }
 
-.text-lonefish h1 {
+.lonefish-text h1 {
     text-align: center;
     color: white;
     font-size: 30px;
