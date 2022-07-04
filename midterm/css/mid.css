@@ -5,10 +5,12 @@
 
 body {
     width: 100%;
+    background-color: aqua;
 }
 
 main-container {
     width: 80%;
+    background-color: aquamarine;
 }
 
 .banner-lonefish {
