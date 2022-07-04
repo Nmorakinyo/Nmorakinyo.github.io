@@ -22,17 +22,17 @@ content-container {
 }
 
 header {
-    /* width: 100%; */
+    width: 100%;
     height: auto;
 }
 
 .lonefish-banner {
-    /* width: 100%; */
+    width: 100%; 
     position: relative;
 }
 
 .lonefish-banner img {
-   /* width: 100%; */
+   width: 100%;
     height: auto; 
 }
 
