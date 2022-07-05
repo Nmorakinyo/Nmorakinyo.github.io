@@ -4,14 +4,14 @@
     }
 
 html, body{
-    margin:0; 
+    margin: 0; 
     background-color: white;
-    padding:0;
+    padding: 0;
 }
 
 
 main-container {
-     width:1000px;
+     width: 1000px;
      margin:0 auto;
      background-color: aqua;
 }
@@ -44,9 +44,9 @@ header {
 }
 
 .lonefish-text h1 {
-    text-align: center;
+    text-align: top;
     position: absolute;
-    top: 40%;
+    top: 20%;
     color: white;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -77,4 +77,5 @@ img
 {
     text-align: justify;
     font-family: verdana;
+    position: absolute;
 }
