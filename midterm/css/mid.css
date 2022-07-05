@@ -39,11 +39,12 @@ header {
 .lonefish-banner title {
     position: absolute;
     top: 10%;
+    margin: 0 auto;
     font-size: 29px;
 }
 
 .lonefish-text {
-    /* width: 100%; */
+    width: 100%;
     position: absolute;
     top: 25%;
     padding: 20px;
