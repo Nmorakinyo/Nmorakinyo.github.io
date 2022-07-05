@@ -28,7 +28,7 @@ header {
 
 .lonefish-banner {
     width: 100%; 
-    position: relative;
+    position: absolute;
 }
 
 .lonefish-banner img {
@@ -36,10 +36,12 @@ header {
     height: auto; 
 }
 
-.lonefish-banner title {
+.lonefish-banner h1 {
     position: absolute;
     text-align: center;
-    top: 20px;
+    top: 39px;
+    font-size: 50px;
+    
 }
 
 .lonefish-text {
