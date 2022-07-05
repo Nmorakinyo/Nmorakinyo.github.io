@@ -36,6 +36,12 @@ header {
     height: auto; 
 }
 
+.lonefish-banner title {
+    position: absolute;
+    top: 10%;
+    font-size: 29px;
+}
+
 .lonefish-text {
     /* width: 100%; */
     position: absolute;
