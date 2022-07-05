@@ -4,14 +4,14 @@
     }
 
 html, body{
-    margin: 0; 
+    margin:0; 
     background-color: white;
-    padding: 0;
+    padding:0;
 }
 
 
 main-container {
-     width: 1000px;
+     width:1000px;
      margin:0 auto;
      background-color: aqua;
 }
@@ -36,6 +36,12 @@ header {
     height: auto; 
 }
 
+.lonefish-banner title {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+}
+
 .lonefish-text {
     /* width: 100%; */
     position: absolute;
@@ -44,9 +50,7 @@ header {
 }
 
 .lonefish-text h1 {
-    text-align: top;
-    position: absolute;
-    top: 20%;
+    text-align: center;
     color: white;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -77,5 +81,4 @@ img
 {
     text-align: justify;
     font-family: verdana;
-    position: absolute;
 }
