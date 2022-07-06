@@ -1,58 +1,63 @@
-*{-webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-      box-sizing:border-box;
-    }
-
-html, body{
+html, body {
     margin:0; 
-    background-color: white;
     padding:0;
 }
 
 
-main-container {
+#main-container {
      width:1000px;
      margin:0 auto;
-     background-color: aqua;
+    background: white;
 }
 
+.left-pane {
+background: #B0DFE5; 
+width: 10%;
+float: left;
+height: 1225px;
 
-content-container {
+}
+
+.middle-pane {
     width: 80%;
-    margin: 0 auto;
-   background-color: aquamarine;
+   background: #D6FCE8;
+  float: left;
+  height: 1225px;
 }
 
-header {
-    width: 100%;
+.right-pane {
+background: #B0DFE5; 
+width: 10%;
+float: left;
+height: 1225px;
+}
+
+
+.header {
+   width: 100%;
     height: auto;
 }
 
-.lonefish-banner {
+
+.adbanner {
     width: 100%; 
-    position: relative;
+   position: relative;
+  text-align: center; 
 }
 
-.lonefish-banner img {
+.adbanner img {
    width: 100%;
-    height: auto; 
+
 }
 
-.lonefish-banner title {
-    position: absolute;
-    top: 10%;
-    margin: 0 auto;
-    font-size: 29px;
-}
-
-.lonefish-text {
+.adtext {
     width: 100%;
-    position: absolute;
-    top: 25%;
-    padding: 20px;
+   position: absolute;
+    top: 20%;
+    padding: 90px;
 }
 
-.lonefish-text h1 {
+.adtext h1 {
     text-align: center;
     color: white;
     font-size: 30px;
@@ -60,13 +65,26 @@ header {
     font-weight: bold;
 }
 
-nav {
-    width: 100%;
+#nav {
+width: 100%;
+text-align: justify;
 }
 
-article {
-    width: 100%;
+#nav ul {
+  list-style: none;
 }
+
+#nav ul li {
+display: inline;
+}
+
+#nav ul li a {
+  text-align: center;
+  padding: 90px;
+  text-decoration: none;
+}
+
+
 .container
 {
     width: 100%;
@@ -80,8 +98,12 @@ img
     padding: 0 10px 0 0
 }
 
-.text
+.storytext
 {
-    text-align: justify;
-    font-family: verdana;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+text-align: right;
 }

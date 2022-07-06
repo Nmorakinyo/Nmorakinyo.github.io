@@ -1,73 +1,50 @@
 <!DOCTYPE html>
- <html lang="en">
-<!-- Head Section-->
+<html lang="en">
 <head>
-     
- <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lone Starfish</title>
-    <link rel="stylesheet" href="css/mid.css">
-
+    <link rel="stylesheet" href="css/mid.css"/>
 </head>
-
-<!-- End of Head and start of Body -->
-
 <body>
-
+    
    <div id="main-container">
+    <div id="content-container">
 
-      <div class="left-pane"> 
+           <!--header - text on banner code-->
 
-         <p></p>
+        <div id="header">
 
-      </div>
+            <div class="lonefish-banner">
+                 <img src="images/lone-starfish-wide.jpg" alt="Lone Starfish">
+        </div>
+                 
+                 <div class="lonefish-text">
+                    <h1>Lone Starfish</h1>
+            </div>
+    
+        </div>
 
-<!--End of left-pane-->
+        <!--End of text on banner code-->
 
-           <div class="middle-pane"> 
+<!--Start of navigation code-->
 
-          <!-- Start of header -->
+<div id="nav">
+    <a href="index.html">Home</a> |
+    <a href="#story">Story</a> |
+    <a href="#contact">Contact</a>
+</div>
+<!--End of navigation code-->
 
-   <div id="header">
-
-         <div class="adbanner">
-             <img src="images/lone-starfish-wide.jpg" alt="Lone Starfish">
-
-                 <div class="adtext">
-                   <h1>Lone Starfish</h1>
-                 </div>
-         </div>
-              
-    </div>    
-      
-                
-    <div id="nav">
-
-     <ul>
-         <li><a href="index.html">HOME</a></li> |
-         <li><a href="#story">STORY</a></li> |
-         <li><a href="#contact">CONTACT</a></li>
-  </ul>
-
-   <!--
-        <a href="index.html">HOME</a> |
-         <a href="#story">STORY</a> |
-         <a href="#contact">CONTACT</a>
-     -->
-
-       </div>
-
-<!-- End of left nav. and start of content -->
+<!--Start of the story-->
 
 <article>
-
     <h1 id="story">Life of a Starfish</h1>
-
     <div class="container">
         <img src="images/lone-starfish.jpg" alt="Lone Starfish">
 
-        <div class="storytext">
+        <div class="text">
             Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. 
                 Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth 
     halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; 
@@ -84,11 +61,12 @@
     eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth 
     humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish 
     searobin false trevally, dottyback.
-       </div>
-      </div>
-
+    
+        </div>
+    </div>
+    
+   
 <h2>Facts About Starfish</h2>
-
     <ul>
 <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
 <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
@@ -96,32 +74,26 @@
 <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
     </ul>
 
-</article>
-<!--End of sthe story-->
+    <!--End of sthe story-->
 
     <!--Start of contact form-->
 
     <h2 id="contact">Contact to learn more</h2>
-<br>
-    <Form action="results.html" method="post">
+<div id="contactform">
+    <Form action="results.html" method="get">
 <div>
    <label for="name">Your Name</label>
 <input type="text" name="name" id="name" required> 
 </div>
-<br>
 <div>
 <label for="email">Your Email</label>
 <input type="email" name="email" id="email" required>  
 </div>
-<br>
 <div>
 <label for="message">Your Message</label>
 <input type="textarea" name="message" id="message" required> 
-</div>
-<br>
-
 <h3>Would you like to visit the Starfish?</h3>  
-
+</div>
 <div>
 <label>Yes</label> 
 <input type="radio" name="option" id="Yes" value="Yes">
@@ -130,25 +102,18 @@
 <label>Maybe</label> 
 <input type="radio" name="option" id="Maybe" value="Maybe">
 </div>
-<br>
 <button type="submit">Send</button>
     </Form>
+</div>
+    <!--End of contact form-->
 
-<!--End of contact form-->
-<br>
-
- <!--Start of footer-->
+    <!--Start of footer-->
     <footer>
          &copy; Lone Starfish
     </footer>
     <!--End of footer-->
-
-</div>
-
-          <div class="right-pane">  
-      <p></p>
+</article>
     </div>
-
 </div>
 </body>
 </html>
