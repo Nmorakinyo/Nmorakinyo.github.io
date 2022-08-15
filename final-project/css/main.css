@@ -48,5 +48,26 @@ table {
 	border-spacing: 0;
 }
 /* ********************************************************************************
+ Enbed in HTNL - Google Map, Google Fonts, Icon Fonts
+**********************************************************************************/
+
+/* Enbed Google Map in HTML */
+iframe {
+    border: 0;
+    width: 100%;
+    height: 250px;
+}
+
+/* Google Fonts */
+h1, h2 {
+    font-family: 'Roboto', sans-serif;  
+}
+
+/* Icon Fonts */
+.fa-caret-right {
+    font-size: 5rem;
+    color: #900;
+}
+/* ********************************************************************************
  CSS defaults for this page
 **********************************************************************************/
