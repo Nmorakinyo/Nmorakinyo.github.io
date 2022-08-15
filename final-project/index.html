@@ -8,38 +8,30 @@
 </head>
 <body>
   
-    <header style="background-color:black;">
+    <header>
     
-<div style="background-color:#c6902c;">
 <img src="images/logo.png" alt="Company Logo"> 
-<br>
-<center>
-<h3> <font color="black"> Home</font></h3>
-</center>
-</div>
 
-<div>
-<center>
-<h3> <font color="c6902c"> About Us</font></h3>
-<h3> <font color="c6902c"> Services</font></h3>
-<h3> <font color="c6902c"> Team</font> </h3>
-<h3> <font color="c6902c"> Contact</font> </h3>
-</center>
-</div>
-
-<div>
- <center>
-    <form>
-
-<input type="text" name="search" placeholder="Search.." id="search">  
-
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-  </div>
-</center>
-
+<nav>
+    <ul>
+    <li> Home</li>
+    <li> About Us </li>
+    <li>  Services</li>
+    <li>  Team </li>
+    <li>  Contact </li>
+    </ul>
+</nav>
+    
+        <form>
+    
+    <input type="text" name="search" placeholder="Search.." id="search">  
+    
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
 </header>
 
+<main>
+<!--Welcome To Three Star Media Section-->
 <section>
 
 <img src="images/main-banner.jpg" alt="Main Banner"> 
@@ -54,7 +46,9 @@
 <br>
 </section>
 
-<section style="background-color:beige;">
+<!--About Us Section-->
+<section>
+
 <img src="images/about-us.jpg" alt="About Us"> 
 
 <h1><b>About Us</b></h1>
@@ -70,25 +64,29 @@
     non. Pellentesque massa neque, mollis at dapibus sit amet, placerat non enim.</p>
 </section>
 
+<!--Our Services Section-->
+
 <section>
 
 <h1><b> Our Services </b></h1>
 
-<img src="images/digital.jpg" alt="Digital Transformation"> 
+<article>
+     <img src="images/digital.jpg" alt="Digital Transformation"> 
+
+    <br>
+    
+    <h2><b>Digital Transformation</b></h2>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
+        scelerisque consequat purus, eget convallis odio cursus a. In eget ligula 
+        egestas, aliquet erat a, pellentesque metus. Mauris euismod justo metus, 
+        quis euismod est viverra in. </p>
+    <button type="button">Digital Place</button>
+
+</article>
 
 
-
-<br>
-
-<h2><b>Digital Transformation</b></h2>
-<br>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
-    scelerisque consequat purus, eget convallis odio cursus a. In eget ligula 
-    egestas, aliquet erat a, pellentesque metus. Mauris euismod justo metus, 
-    quis euismod est viverra in. </p>
-<button type="button">Digital Place</button>
-<br>
-
+<article>
 <img src="images/marketing.jpg" alt="Marketing"> 
 
 <br>
@@ -101,9 +99,10 @@
     quis euismod est viverra in. </p>
 <br>
 <button type="button">Marketing Plans</button>
+</article>
 <br>
 
-
+<article>
 <img src="images/video.jpg" alt="Video Production"> 
 
 
@@ -120,10 +119,11 @@
     quis euismod est viverra in. </p>
 <br>
 <button type="button">Video Plans</button>
+</article>
 <br>
 
 
-
+<article>
 <img src="images/web.jpg" alt="Web Development"> 
 
 
@@ -138,9 +138,10 @@
     quis euismod est viverra in. </p>
 <br>
 <button type="button">Web Plans</button>
+</article>
 <br>
 
-
+<article>
 <img src="images/print.jpg" alt="Print"> 
 
 
@@ -155,9 +156,13 @@
     quis euismod est viverra in. </p>
 <br>
 <button type="button">Print Plans</button>
+</article>
+
 <br>
+</section>
 
-
+<!--Our Vision Section-->
+<section>
 <img src="images/vision.jpg" alt="Our Vision"> 
 
 
@@ -172,12 +177,14 @@
     quis euismod est viverra in. </p>
 <br>
 <button type="button">Learn More</button>
+</section>
 <br>
 
-
+<!--Our Team Section-->
 <section>
 <h1><b>Our Team</b></h1>
 <br>
+<article>
 <img src="images/john.jpg" alt="John Doe"> 
 <br>
 
@@ -189,7 +196,10 @@
     scelerisque consequat purus, eget convallis odio cursus a. In eget ligula 
     egestas, aliquet erat a, pellentesque metus. Mauris euismod justo metus, 
     quis euismod est viverra in. </p>
+</article>
 <br>
+
+<article>
 <img src="images/bob.jpg" alt="Bob Rite">
 <br>
 <h1><b>Bob Rite</b></h1>
@@ -201,9 +211,13 @@
     scelerisque consequat purus, eget convallis odio cursus a. In eget ligula 
     egestas, aliquet erat a, pellentesque metus. Mauris euismod justo metus, 
     quis euismod est viverra in. </p>
+</article>
 <br>
+</section>
 
+<!--Contact Us Section-->
 <section>
+    <article>
 <h1><b> Contact Us </b></h1>
 <h2><b>Send us a message</b></h2>
 <br>
@@ -230,47 +244,45 @@
 <br>
 <button type="submit">Send</button>
     </Form>
+</article>
 
-</section>
 
-<section>
+<article>
 <h1><b>Hours of operation</b></h1>
 <br>
-<table border="1px">
+<table>
 <tr>
-    <th width="350px" bgcolor="gold">Days</th>
-    <th width="350px" bgcolor="gold">Hours</th>
+    <th> Days</th>
+    <th >Hours</th>
   </tr>
   <tr>
-    <td width="350px">Monday - Friday</td>
-    <td width="500px">9 AM - 6 PM</td>
+    <td>Monday - Friday</td>
+    <td >9 AM - 6 PM</td>
   </tr>
   <tr>
-    <td width="350px">Saturday - Sunday</td>
-    <td width="350px">Closed</td>
+    <td>Saturday - Sunday</td>
+    <td>Closed</td>
   </tr>
 
 </table>
 
-</section>
+</article>
 
-<section>
+<article>
 <h1><b>Location</b></h1>
 
 <br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179452.46320206203!2d-76.01860867500002!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1659975515058!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+</article>
 </section>
-<br>
-<br>
-<footer style="background-color:black;">
-<div>
-<p> <font color="orange">
-© Copyright Three Star Media, 2020</font>
-</font></p>
 
-<p><font color="orange"> All images are taken from <u>Unsplash</u> </font></p>
-</div>
+</main>
+<footer>
+<p> 
+© Copyright Three Star Media, 2020
+</p>
+<p> All images are taken from Unsplash </p>
 </footer>
 </body>
 </html>
