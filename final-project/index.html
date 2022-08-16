@@ -23,49 +23,82 @@
 
 
 <body>
-  
-    <header>
-    
-<img src="images/logo.png" alt="Company Logo"> 
 
-<nav>
-    <ul>
+
+<div id="header">
+
+<div id="inner_header">
+
+     <div id="logo">
+       <img src="images/logo.png" alt="Company Logo">
+          </div>
+</div>
+
+<div id="nav">
+<ul>
     <li> Home</li>
     <li> About Us </li>
     <li>  Services</li>
     <li>  Team </li>
     <li>  Contact </li>
     </ul>
-</nav>
-    
-        <form>
+</div>
+
+<div id="search">
+
+   <form>
     
     <input type="text" name="search" placeholder="Search.." id="search">  
     
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
-</header>
 
-<main>
-<!--Welcome To Three Star Media Section-->
-<section>
+        </div>
 
-<img src="images/main-banner.jpg" alt="Main Banner"> 
+</div>
+
+<!-- End of header and start of horizontal menu for mobiles-->
 
 
-    <h1><b>Welcome to Three Star Media</b></h1>
-<br>
+
+<div id="main">
+<!--Welcome Section Layer overlap -transparent layer on top-->
+
+<div id="welcome">
+
+
+<img class="banner" src="images/main-banner.jpg" alt="Main Banner"> 
+
+
+<div id="textbox">
+
+    <h1> Welcome to Three Star Media </h1>
+
+<br><br>
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam tincidunt 
-    mauris eu risus.Vestibulum auctor dapibus neque.</p>
+    mauris eu risus.Vestibulum auctor dapibus neque.Cras tempor ex id elit mattis, in aliquam sem 
+    vehicula. Morbi a turpis lacus. Nunc quis elit sapien. Nam viverra eu nunc 
+    in porta. Integer pellentesque ullamcorper magna, vel hendrerit magna auctor 
+    non. Pellentesque massa neque, mollis at dapibus sit amet, placerat non enim</p>
+<br><br>
 
-<button type="button">Connect with us!</button>
+<button type="button" class="button">
+<span class="button_text"> Connect with us</span>
+<span class="button_icon"> <i class="fa-solid fa-caret-right"></i></span>
+</button>
 <br>
-</section>
+<br>
+</div>
+
+</div>
 
 <!--About Us Section-->
-<section>
+<div id="aboutus">
 
-<img src="images/about-us.jpg" alt="About Us"> 
+<img class="aboutus" src="images/about-us.jpg" alt="About Us"> 
+
+
+<div id="abouttext">
 
 <h2><b>About Us</b></h2>
 <br>
@@ -78,54 +111,77 @@
     vehicula. Morbi a turpis lacus. Nunc quis elit sapien. Nam viverra eu nunc 
     in porta. Integer pellentesque ullamcorper magna, vel hendrerit magna auctor 
     non. Pellentesque massa neque, mollis at dapibus sit amet, placerat non enim.</p>
-</section>
+
+</div>
+
+</div>
 
 <!--Our Services Section-->
 
-<section>
+<br><br>
 
-<h2><b> Our Services </b></h2>
+<h1> Our Services </h1>
+<br><br>
 
-<article>
+
+<div id="digital">
+
+<div id="digitalimage">
      <img src="images/digital.jpg" alt="Digital Transformation"> 
-
+</div>
     <br>
-    
-    <h3><b>Digital Transformation</b></h3>
+    <div id="digitaltext">
+    <h3>Digital Transformation</h3>
     <br>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
         scelerisque consequat purus, eget convallis odio cursus a. In eget ligula 
         egestas, aliquet erat a, pellentesque metus. Mauris euismod justo metus, 
         quis euismod est viverra in. </p>
-    <button type="button">Digital Place</button>
 
-</article>
+    <button type="button" class="button">
+<span class="button_text"> Connect with us</span>
+<span class="button_icon"> <i class="fa-solid fa-caret-right"></i></span>
+</button>
+
+</div>
+</div>
 
 
-<article>
+<div id="market">
+
+<div id="marketimage">
     <img src="images/marketing.jpg" alt="Marketing"> 
-
+</div>
 <br>
-
-<h3><b>Marketing</b></h3>
+<div id="markettext">
+<h3>Marketing</h3>
 <br>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
     scelerisque consequat purus, eget convallis odio cursus a. In eget ligula 
     egestas, aliquet erat a, pellentesque metus. Mauris euismod justo metus, 
     quis euismod est viverra in. </p>
 <br>
-<button type="button">Marketing Plans</button>
-</article>
+<button type="button" class="button">
+<span class="button_text"> Connect with us</span>
+<span class="button_icon"> <i class="fa-solid fa-caret-right"></i></span>
+</button>
+</div>
+</div>
 <br>
 
-<article>
+<div id="video">
+
+<div id="videoimage">
 <img src="images/video.jpg" alt="Video Production"> 
 
-
+</div>
 
 <br>
+<div id="videotext">
 
-<h3><b>Video Production</b></h3>
+<h3> Video Production</h3>
+
+
 
 <br>
 
@@ -134,50 +190,65 @@
     egestas, aliquet erat a, pellentesque metus. Mauris euismod justo metus, 
     quis euismod est viverra in. </p>
 <br>
-<button type="button">Video Plans</button>
-</article>
+<button type="button" class="button">
+<span class="button_text"> Connect with us</span>
+<span class="button_icon"> <i class="fa-solid fa-caret-right"></i></span>
+</button>
+</div>
+</div>
 <br>
 
 
-<article>
+<div id = "web">
+
+<div id="webimage">
 <img src="images/web.jpg" alt="Web Development"> 
-
-
+</div>
 
 <br>
-
-<h3><b>Web Development</b></h3>
+<div id="webtexr"
+<h3>Web Development</h3>
 <br>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
     scelerisque consequat purus, eget convallis odio cursus a. In eget ligula 
     egestas, aliquet erat a, pellentesque metus. Mauris euismod justo metus, 
     quis euismod est viverra in. </p>
 <br>
-<button type="button">Web Plans</button>
-</article>
+<button type="button" class="button">
+<span class="button_text"> Connect with us</span>
+<span class="button_icon"> <i class="fa-solid fa-caret-right"></i></span>
+</button>
+</div>
+</div>
 <br>
 
-<article>
+<div id="print">
+
+<div id="printimage"
+
 <img src="images/print.jpg" alt="Print"> 
-
+</div>
 
 
 <br>
-
-<h3><b>Print</b></h3>
+<div id="printtest
+<h3>Print</h3>
 <br>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
     scelerisque consequat purus, eget convallis odio cursus a. In eget ligula 
     egestas, aliquet erat a, pellentesque metus. Mauris euismod justo metus, 
     quis euismod est viverra in. </p>
 <br>
-<button type="button">Print Plans</button>
-</article>
+<button type="button" class="button">
+<span class="button_text"> Connect with us</span>
+<span class="button_icon"> <i class="fa-solid fa-caret-right"></i></span>
+</button>
+</div>
+</div>
 
-<br>
-</section>
 
-<!--Our Vision Section-->
+
+<!--Our Vision Section text over image-->
 <section>
 <img src="images/vision.jpg" alt="Our Vision"> 
 

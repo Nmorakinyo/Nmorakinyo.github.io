@@ -71,3 +71,184 @@ h1, h2 {
 /* ********************************************************************************
  CSS defaults for this page
 **********************************************************************************/
+#header {
+   background-color:#222;
+	width: 100%;
+height: 350px;
+padding-top: 10px;
+}
+
+#inner_header {
+    background-color:#c78c06;
+    width: 96%;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+
+#logo {
+      width:20%;    
+}
+
+
+#nav {
+
+    width: 96%;
+        text-align:center;  
+ margin-left: auto;
+   margin-right: auto; 
+line-height: 2.7;  
+
+font-family: 'Roboto', sans-serif;
+           font-size:16px;
+
+             /* font-weight:bold; */  
+}
+
+#nav li:nth-child(1) {
+background-color:#c78c06;
+color:#222;
+}
+
+#nav ul{width:100%;
+             text-align:center;   
+
+              list-style-type:none;
+}
+
+#nav ul li{
+
+           color:#c78c06;
+}
+
+/* 
+#nav ul li{
+
+           display:inline;
+}
+
+*/
+
+#search {
+
+ width: 96%;
+        text-align:center;
+ margin-left: auto;
+   margin-right: auto;
+}
+
+.button{
+display: inline-text;
+height: 100px;
+width: 300px
+padding: 0;
+background: #c78c06;
+border: none;
+outline: none;
+border-radius: 5px;
+overflow: hidden;
+font-family: 'Roboto', sans-serif;
+           font-size:16px;
+font-weight: 500;
+/* cursor: pointer;*/
+}
+.button_text, .button_icon{
+display: inline-flex;
+align-items: center;
+padding: 0 24px;
+color: #222;
+height:100%;
+}
+
+#welcome {
+
+width:100%;
+
+}
+
+#Welcome h1 {
+font-family: 'Roboto', sans-serif;
+font-size: 26px;
+font-weight: 500;
+}
+
+img.banner {
+
+width:100%;
+height:auto;
+
+}
+
+#textbox{
+/*
+background: url(images/main-banner.jpg);
+*/
+width:100%;
+}
+
+#textbox h1{
+font-family: 'Roboto', sans-serif;
+font-size: 26px;
+
+}
+
+#textbox p{
+
+font-family: 'Roboto', sans-serif;
+           font-size: 16px;
+}
+
+
+
+#aboutus{
+width:100%;
+background-color: #ffe6ac;
+padding: 50px;
+}
+
+img.aboutus{
+ 
+}
+
+#abouttext{
+
+#textbox h2{
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+
+#digital{
+width:100%;
+background-color: #ffe6ac;
+}
+
+#digitalimage{
+ margin-left: auto;
+   margin-right: auto;
+}
+
+#digitaltext{
+width:100%;
+#textbox h2{
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+#market{
+width:100%;
+background-color: #ffe6ac;
+
+}
+
+#marketimage{
+ margin-left: auto;
+   margin-right: auto;
+}
+
+#markettext{
+width:100%;
+#textbox h2{
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
