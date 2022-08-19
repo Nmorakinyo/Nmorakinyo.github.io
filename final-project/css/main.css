@@ -712,7 +712,7 @@ content: '';
 position: absolute;
 width: 100%;
 height: 100%;
-background: rgba(0 0 0 .2);
+background: rgba(66, 54, 54, 0.2);
 border-top-left:20px;
 border-bottom-right:20px;
 z-index: 1;
