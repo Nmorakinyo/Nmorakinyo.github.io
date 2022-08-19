@@ -685,28 +685,33 @@ color: #fff;
 height:100%;
 }
 
-#welcome {
+#box {
 background: url(../images/main-banner.jpg);
 width: 100%;
 height: 1000px;
-display: flex;
+/*display: flex;*/
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
-justify-content:center;
-align-items:center;
+/*justify-content:center;
+align-items:center;*/
 }
 
-#textbox{
+#innerbox{
 position: relative;
 width: 100%;
-height: 800px;
+height: 80%;
 background:transparent;
 border:0px solid #222;
 border-top-left:20px;
 border-bottom-right:20px;
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 15px 20 px rgba(0,0,0,.2);
+padding: 30px;
+text-align: center;
+letter-spacing:  2px;
 }
-
+/*
 #textbox:before{
 content: '';
 position: absolute;
@@ -716,21 +721,21 @@ background: rgba(255, 255, 255, 0.2);
 border-top-left:20px;
 border-bottom-right:20px;
 z-index: 1;
-}
+}*/
 
-#textbox h1{
+#innerbox h1{
 padding: 10px;
 line-height:300px;
 color: #fff;
-font-size: 65px;
+font-size: 72px;
 font-family: 'Open Sans', sans-serif;
 }
 
 
-#textbox p{
+#innerbox p{
 padding: 10px;
 font-size: 25px;
-color: #222;
+color: #fff;
 font-family: 'Open Sans', sans-serif;
 line-height:50px;
 font-weight:bold;
