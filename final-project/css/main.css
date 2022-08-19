@@ -140,7 +140,7 @@ color:#222;
 .button{
 display: inline-text;
 height: 100px;
-width: 300px;
+width: 300px
 padding: 0;
 background: #222;
 border: none;
@@ -665,7 +665,7 @@ float:left;
 .button{
 display: inline-text;
 height: 100px;
-width: 300px;
+width: 300px
 padding: 0;
 background: #222;
 border: none;
@@ -685,57 +685,52 @@ color: #fff;
 height:100%;
 }
 
-#box {
+#welcome {
 background: url(../images/main-banner.jpg);
 width: 100%;
 height: 1000px;
-/*display: flex;*/
+display: flex;
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
-/*justify-content:center;
-align-items:center;*/
+justify-content:center;
+align-items:center;
 }
 
-#innerbox{
+#textbox{
 position: relative;
 width: 100%;
-height: 80%;
+height: 800px;
 background:transparent;
 border:0px solid #222;
 border-top-left:20px;
 border-bottom-right:20px;
-background: rgba(33, 1, 1, 0.2);
-box-shadow: 0 15px 20 px rgba(0, 0, 0, 0.5);
-padding: 30px;
-text-align: center;
-letter-spacing:  2px;
 }
-/*
+
 #textbox:before{
 content: '';
 position: absolute;
 width: 100%;
 height: 100%;
-background: rgba(255, 255, 255, 0.2);
+background: rgba(0 0 0 .2);
 border-top-left:20px;
 border-bottom-right:20px;
 z-index: 1;
-}*/
+}
 
-#innerbox h1{
+#textbox h1{
 padding: 10px;
 line-height:300px;
 color: #fff;
-font-size: 72px;
+font-size: 65px;
 font-family: 'Open Sans', sans-serif;
 }
 
 
-#innerbox p{
+#textbox p{
 padding: 10px;
 font-size: 25px;
-color: #fff;
+color: #222;
 font-family: 'Open Sans', sans-serif;
 line-height:50px;
 font-weight:bold;
