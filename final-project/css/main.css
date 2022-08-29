@@ -139,8 +139,8 @@ color:#222;
 
 .button{
 display: inline-text;
-height: 100px;
-width: 300px;
+height:100px;
+width:300px;
 padding: 0;
 background: #c78c06;
 border: none;
@@ -222,6 +222,11 @@ padding: 50px;
 width:100%;
 padding: 50px;
 }
+
+#abouttext{
+  width:100%;
+  padding: 50px;
+  }
 
 #abouttext h2{
 
@@ -747,11 +752,13 @@ flex-direction:row;
 }
 
 #aboutimage{
-width:50%;
+width:40%;
+padding: 5%;
 }
 
 #abouttext{
-width:50%;
+width:40%;
+padding: 5%;
 }
 
 #abouttext h2{
