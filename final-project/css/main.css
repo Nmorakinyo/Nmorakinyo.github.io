@@ -751,7 +751,7 @@ background-color: #ffe6ac;
 }
 
 #aboutimage{
-width:40%;
+width:auto;
 padding: 5%;
 float: left;
 }
@@ -759,6 +759,7 @@ float: left;
 #abouttext{
 width:40%;
 padding: 5%;
+float: right;
 }
 
 #abouttext h2{
