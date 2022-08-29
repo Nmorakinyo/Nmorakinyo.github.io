@@ -688,35 +688,25 @@ height:100%;
 #welcome {
 background: url(../images/main-banner.jpg);
 width: 100%;
-height: 1000px;
-display: flex;
+height: auto;
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
-justify-content:center;
-align-items:center;
+position: relative;
+
 }
 
 #textbox{
-position: relative;
+position:absolute;
 width: 100%;
-height: 800px;
-background:transparent;
-border:0px solid #222;
-border-top-left:20px;
-border-bottom-right:20px;
+border:
+background-color: #0009;
+transform: translate(-50%, -50%)
+top: 50%
+left: 50%
 }
 
-#textbox:before{
-content: '';
-position: absolute;
-width: 100%;
-height: 100%;
-background: rgba(0 0 0 .2);
-border-top-left:20px;
-border-bottom-right:20px;
-z-index: 1;
-}
+
 
 #textbox h1{
 padding: 10px;
@@ -724,6 +714,7 @@ line-height:300px;
 color: #fff;
 font-size: 65px;
 font-family: 'Open Sans', sans-serif;
+text-align:center;
 }
 
 
@@ -734,6 +725,7 @@ color: #222;
 font-family: 'Open Sans', sans-serif;
 line-height:50px;
 font-weight:bold;
+text-align:center;
 }
 
 
