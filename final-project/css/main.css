@@ -688,7 +688,7 @@ height:100%;
 #welcome {
 background: url(../images/main-banner.jpg);
 width: 100%;
-height: auto;
+height: 1000px;
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
@@ -699,7 +699,7 @@ position: relative;
 #textbox{
 position:absolute;
 width: 100%;
-border:
+height: 800px;
 background-color: #0009;
 transform: translate(-50%, -50%)
 top: 50%
@@ -721,7 +721,7 @@ text-align:center;
 #textbox p{
 padding: 10px;
 font-size: 25px;
-color: #222;
+color: #fff;
 font-family: 'Open Sans', sans-serif;
 line-height:50px;
 font-weight:bold;
